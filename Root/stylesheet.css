@@ -1,0 +1,379 @@
+/* */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif ;
+    vertical-align: baseline;      
+}
+
+
+body 
+{
+    width: 100%;
+    background-image: url(../Images/Back.png);
+    background-position: top center;
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+#home
+{
+    width: 90%;
+    margin: 0 auto; 
+}
+
+/* display content after the tab menu */
+
+#topElements::after
+{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+/* skills */
+
+
+ul
+{
+    margin-top: 150px;
+    list-style-type: none;
+   
+}
+
+li
+{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;   
+}
+
+/* top elements */
+
+#topElements 
+{
+    height: 150px;
+    line-height: 150px;   
+}
+
+#topElements a
+{
+    color: #0060B6;
+    text-decoration: none;  
+   
+}
+
+
+#topElements a:hover
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+#topElements a img
+{ 
+    vertical-align: middle;
+    
+}
+
+
+#topElements a:nth-child(1)
+{
+    float: right;
+    word-spacing: 30px;
+
+    
+
+}
+
+
+#topElements a:nth-child(2)
+{
+    float: right;
+    word-spacing: 30px;
+}
+
+
+
+#topElements a:nth-child(3)
+{
+    float: right;
+    word-spacing: 30px;
+    
+}
+
+#topElements a:nth-child(4)
+{
+    float: right;
+    word-spacing: 30px;
+}
+
+
+
+
+/* Header */
+
+#homeDes
+{
+    color: white;
+    font-size: 48px;
+    padding-left: 25px;
+    padding-top: 400px;
+    margin: 40px 0 200px 0;
+    text-align: center;
+    
+
+}
+
+#homeDes p
+{
+    color: white;
+    font-size: 16px;
+    width: 45%;
+    margin: 150px auto 0 auto;
+    border: 1px solid white;
+}
+
+
+
+/* experience */
+
+#experience
+{
+    text-align: center;
+    width: 100%;
+    
+}
+
+#experience a img 
+{
+    margin: 1%;
+    width: 40%;
+}
+
+
+/* Skills Section */
+
+#skills
+{
+    text-align: center;
+    width: 45%;
+    margin: 0px auto 0 auto;
+    position: relative;
+}
+
+#skills h1
+{
+    color: #13A3FD;
+    font-size: 35px;
+    margin: 100px;
+   
+}
+
+
+
+#ThingsETC
+{
+   
+    font-size: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 140px;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+   
+
+}
+
+#work
+{
+    font-size: 35px;
+    text-align: center;
+    color: #13A3FD; 
+    margin: 130px;
+}
+
+footer
+{
+    text-align: center;
+    margin: 10px 0;
+    
+
+}
+footer p
+{
+    color: #ffffff;
+}
+
+/* Miraj Brahmbhatt Animation Logo */
+
+#mirajbrahmbhatt
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5 ease forwards 3s;
+    
+}
+
+#mirajbrahmbhatt path:nth-child(16)
+{
+    stroke-dasharray:  503.2843933105469   ;
+    stroke-dashoffset:  503.2843933105469 ;
+    animation: line-anim 2s ease forwards;
+}
+
+#mirajbrahmbhatt path:nth-child(17)
+{
+    stroke-dasharray: 159;
+    stroke-dashoffset: 159;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#mirajbrahmbhatt path:nth-child(18)
+{
+    stroke-dasharray: 164;
+    stroke-dashoffset: 164;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#mirajbrahmbhatt path:nth-child(19)
+{
+    stroke-dasharray: 337;
+    stroke-dashoffset: 337;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#mirajbrahmbhatt path:nth-child(20)
+{
+    stroke-dasharray:223;
+    stroke-dashoffset: 223;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#mirajbrahmbhatt path:nth-child(21)
+{
+    stroke-dasharray: 406;
+    stroke-dashoffset: 406;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#mirajbrahmbhatt path:nth-child(22)
+{
+    stroke-dasharray: 164;
+    stroke-dashoffset: 164;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#mirajbrahmbhatt path:nth-child(23)
+{
+    stroke-dasharray:  337;
+    stroke-dashoffset: 337;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+#mirajbrahmbhatt path:nth-child(24)
+{
+    stroke-dasharray: 318;
+    stroke-dashoffset: 318;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+#mirajbrahmbhatt path:nth-child(25)
+{
+    stroke-dasharray: 445;
+    stroke-dashoffset: 445;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#mirajbrahmbhatt path:nth-child(26)
+{
+    stroke-dasharray: 374;
+    stroke-dashoffset: 374;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#mirajbrahmbhatt path:nth-child(27)
+{
+    stroke-dasharray: 318;
+    stroke-dashoffset: 318;
+    animation: line-anim 2s ease forwards 1.2s;  
+}
+
+#mirajbrahmbhatt path:nth-child(28)
+{
+    stroke-dasharray: 337;
+    stroke-dashoffset: 337;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#mirajbrahmbhatt path:nth-child(29)
+{
+    stroke-dasharray: 209;
+    stroke-dashoffset: 209;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#mirajbrahmbhatt path:nth-child(30)
+{
+    stroke-dasharray: 209;
+    stroke-dashoffset: 209;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+@keyframes line-anim
+{
+    to
+    {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+
+
+  
+/* CONTACT SCREEN */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
