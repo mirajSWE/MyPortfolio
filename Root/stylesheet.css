@@ -64,11 +64,10 @@ li
 
 #topElements a
 {
-    color: #0060B6;
+    color: #13A3FD;
     text-decoration: none;  
    
 }
-
 
 #topElements a:hover
 {
@@ -77,7 +76,6 @@ li
     cursor: pointer;
 
 }
-
 
 #topElements a img
 { 
@@ -116,6 +114,11 @@ li
     float: right;
     word-spacing: 30px;
 }
+#topElements a:nth-child(5)
+{
+    float: right;
+    word-spacing: 30px;
+}
 
 
 
@@ -127,19 +130,21 @@ li
     color: white;
     font-size: 48px;
     padding-left: 25px;
-    padding-top: 400px;
+    padding-top: 300px;
     margin: 40px 0 200px 0;
     text-align: center;
     
 
 }
 
+
+
 #homeDes p
 {
     color: white;
     font-size: 16px;
     width: 45%;
-    margin: 150px auto 0 auto;
+    margin: 50px auto 0 auto;
     border: 1px solid white;
 }
 
@@ -348,32 +353,85 @@ footer p
   
 /* CONTACT SCREEN */
 
-input[type=text], select, textarea {
+input[type=text], textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    border: 1px solid #13A3FD;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     resize: vertical;
   }
   
-  input[type=submit] {
+  input[type=submit] 
+  {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 10px 60px 10px 60px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    
   }
+
+  button[type=clear]
+  {
+    background-color: rgb(206, 2, 29);
+    color: white;
+    padding: 11px 70px 12px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:10px;
+    margin-bottom: 100px;
+  }
+
+
+.form
+{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+button[type=clear]:hover
+{
+    background-color: rgb(197, 37, 37);
+}
+ 
+.name1
+{
+      color: #13A3FD;
+      font-size: 20px;   
+}
+
+.name2
+{
+    color: #13A3FD;
+    font-size: 20px; 
+}
+
+  
+.name3
+{
+    color: #13A3FD;
+    font-size: 20px; 
+}
+
+#contact h1
+{
+  
+    
+    font-size: 30px;
+    color: white;
+    margin: 50px 20px 50px 750px;
+   
+}
+

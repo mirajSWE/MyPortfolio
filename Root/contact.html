@@ -19,6 +19,7 @@
             <a href="about.html">[ about ]</a> 
             <a href="contact.html">[ contact ]</a> 
             <a href="work.html">[ work ] </a>
+            <a href="index.html">[ home ] </a>
             <a href="index.html"><img src="../Images/MBLogo.png" alt="MBLogo"></a> 
             
         </nav>
@@ -28,27 +29,50 @@
 
     <div id="contact">
 
-
-        <div class="container">
+      <h1>
+        [ CONTACT ]
+      </h1>
+      
+        <div class="form">
             <form action="#">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+              <div class="name1">
+                <label for="firstname">[ First Name ]</label>
+              </div>
+              <input type="text" id="firstname" name="firstname" placeholder="Enter Your Name Here..">
+
+             
+          <div class="name2">
+            <label for="lastname">[ Last Name ]</label>
+          </div>
+              <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name Here...">
+        
+           <div class="name3">
+                <label for="message">[ Message ]</label>
+          </div>
+
           
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
+            <textarea id="message" name="message" placeholder="Write Message Here..." style="height:150px"    ></textarea>
+
+             
               <input type="submit" value="Submit">
+              <button type="clear" onclick="myClearFunction()" value="Reset form">Clear</button>
+             
+              
+             
+
             </form>
+
+            <script>
+             
+             function myClearFunction() 
+             {
+                  document.getElementById("clear").reset();
+             }
+              </script>
+
+
+
           </div>
 
 
