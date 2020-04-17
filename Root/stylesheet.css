@@ -15,14 +15,18 @@
 body 
 {
     width: 100%;
-    background-image: url(../Images/Back.png);
-    background-position: top center;
+
+    /* background-image: url(../Images/2.png); */
+    background-color: #262D3D;
+    background-position: fixed;
     background-image: no-repeat;
-    background-size: cover;
+    background-size: cover;   
+    
 }
 
 #home
 {
+
     width: 90%;
     margin: 0 auto; 
 }
@@ -64,14 +68,14 @@ li
 
 #topElements a
 {
-    color: #13A3FD;
+    color: white;
     text-decoration: none;  
    
 }
 
 #topElements a:hover
 {
-    color: white;
+    color: #20CC83;
     text-decoration: none;
     cursor: pointer;
 
@@ -101,7 +105,6 @@ li
 }
 
 
-
 #topElements a:nth-child(3)
 {
     float: right;
@@ -119,8 +122,11 @@ li
     float: right;
     word-spacing: 30px;
 }
-
-
+#topElements a:nth-child(6)
+{
+    float: right;
+    word-spacing: 30px;
+}
 
 
 /* Header */
@@ -131,13 +137,9 @@ li
     font-size: 48px;
     padding-left: 25px;
     padding-top: 300px;
-    margin: 40px 0 200px 0;
+    margin: 100px 0 200px 0;
     text-align: center;
-    
-
 }
-
-
 
 #homeDes p
 {
@@ -148,8 +150,6 @@ li
     border: 1px solid white;
 }
 
-
-
 /* experience */
 
 #experience
@@ -159,14 +159,58 @@ li
     
 }
 
-#experience a img 
+#experience img  
 {
     margin: 1%;
     width: 40%;
 }
+ 
+
+ /*
+ #experience img
+ {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
 
 
-/* Skills Section */
+
+
+ .wL
+ {
+    position: absolute;
+    top: 90%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    background-color: #20CC83;
+    padding: 10px;
+
+ }
+
+
+ .wR
+ {
+    position: absolute;
+    top: 90%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background-color: #20CC83;
+    padding: 10px;
+
+ }
+
+ */
+
+
+ 
+
+
+
+/* Skills Section 
 
 #skills
 {
@@ -184,8 +228,6 @@ li
    
 }
 
-
-
 #ThingsETC
 {
    
@@ -197,16 +239,16 @@ li
     border: 2px solid white;
     color: rgb(0, 0, 0);
     z-index: -1;
-   
 
 }
-
+*/
 #work
 {
     font-size: 35px;
     text-align: center;
-    color: #13A3FD; 
-    margin: 130px;
+    color: white; 
+    margin: 10px;
+    margin-left: 80px;
 }
 
 footer
@@ -218,7 +260,8 @@ footer
 }
 footer p
 {
-    color: #ffffff;
+    color: white;
+    margin-bottom: 0px;
 }
 
 /* Miraj Brahmbhatt Animation Logo */
@@ -346,10 +389,6 @@ footer p
     }
 }
 
-
-
-
-
   
 /* CONTACT SCREEN */
 
@@ -428,10 +467,82 @@ button[type=clear]:hover
 #contact h1
 {
   
-    
-    font-size: 30px;
-    color: white;
-    margin: 50px 20px 50px 750px;
+    font-size: 35px;
+    text-align: center;
+    color: white; 
+    margin: 100px;
    
 }
 
+
+
+.aboutus
+{
+
+    overflow: hidden;
+    text-align: center;
+    background: #34495e;
+    padding: 60px;
+
+
+}
+
+
+.ps img
+{
+    max-width: 90%;
+    max-height: 1920px;
+    margin-left: 50px;
+ 
+}
+
+
+
+  #container {
+    background: #111;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  
+  #stats {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  /* Info */
+  @keyframes show-info 
+  {
+    0% 
+    {
+      transform: rotateY(120deg);
+    }
+    100% 
+    {
+      transform: rotateY(0deg);
+    }
+  }
+  .info {
+    
+    font-family: "Quantico";
+    position: block;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    margin-left: 17%;
+    
+   
+  }
+
+  .social
+  {
+   
+    margin-left: 30%;
+    position: fixed;
+  }
+
+  
+
+
+ 
