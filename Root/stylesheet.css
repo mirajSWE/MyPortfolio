@@ -493,8 +493,12 @@ button[type=clear]:hover
     max-width: 90%;
     max-height: 1920px;
     margin-left: 50px;
+
  
 }
+
+
+
 
 
 
@@ -537,9 +541,10 @@ button[type=clear]:hover
 
   .social
   {
-   
-    margin-left: 30%;
-    position: fixed;
+    
+    margin-left: 40%;
+    margin-top: -150px;
+    
   }
 
   
