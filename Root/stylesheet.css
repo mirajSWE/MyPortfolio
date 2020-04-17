@@ -17,7 +17,8 @@ body
     width: 100%;
 
     /* background-image: url(../Images/2.png); */
-    background-color: #262D3D;
+    /* background-color: #262D3D; */
+    background-color: black;
     background-position: fixed;
     background-image: no-repeat;
     background-size: cover;   
@@ -396,7 +397,7 @@ input[type=text], textarea {
     width: 100%;
     padding: 5px;
     border: 1px solid #13A3FD;
-    border-radius: 4px;
+    border-radius: 1px;
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -428,11 +429,21 @@ input[type=text], textarea {
     margin-bottom: 100px;
   }
 
+  .vl 
+  {
+    border-left: 1px solid white;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: -20%;
+    position: fixed;
+    
+  }
 
 .form
 {
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 950px;
+    
 
 }
 
@@ -470,7 +481,7 @@ button[type=clear]:hover
     font-size: 35px;
     text-align: center;
     color: white; 
-    margin: 100px;
+    margin: 50px;
    
 }
 
@@ -490,20 +501,16 @@ button[type=clear]:hover
 
 .ps img
 {
-    max-width: 90%;
-    max-height: 1920px;
-    margin-left: 50px;
+   max-width: 100%;
+   max-height: 100%;
 
+   margin-top: -40px;
  
 }
 
 
-
-
-
-
   #container {
-    background: #111;
+    background: #0000;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -533,21 +540,38 @@ button[type=clear]:hover
     position: block;
     font-size: 12px;
     opacity: 0.8;
-    color: #fff;
+    color: #ffff;
     margin-left: 17%;
     
    
   }
 
-  .social
-  {
-    
-    margin-left: 40%;
-    margin-top: -150px;
-    
+ .groupme
+ {
+    margin-left: 1200px;
+    margin-top: -350px;
+    position: absolute;
+ }
+
+ .social
+ {
+     margin-left: 1100px;
+     position: absolute;
+     
+ }
+
+
+ #map 
+ {
+   height: 200px;  
+   width: 100%; 
+   background-color: gray;
   }
 
-  
+  .sm
+  {
+    height: 200px;  
+    width: 100%; 
+    background-color: gray;
 
-
- 
+  }
