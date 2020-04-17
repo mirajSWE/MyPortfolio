@@ -248,8 +248,8 @@ li
     font-size: 35px;
     text-align: center;
     color: white; 
-    margin: 10px;
-    margin-left: 80px;
+    margin: 65px;
+    
 }
 
 footer
@@ -548,14 +548,14 @@ button[type=clear]:hover
 
  .groupme
  {
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top: -350px;
     position: absolute;
  }
 
  .social
  {
-     margin-left: 1100px;
+     margin-left: 1000px;
      position: absolute;
      
  }
@@ -563,14 +563,14 @@ button[type=clear]:hover
 
  #map 
  {
-   height: 200px;  
+   height: 700px;  
    width: 100%; 
    background-color: gray;
   }
 
   .sm
   {
-    height: 200px;  
+    height: 100px;  
     width: 100%; 
     background-color: gray;
 

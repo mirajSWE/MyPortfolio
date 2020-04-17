@@ -41,21 +41,32 @@
 
 
     <div class="ps">
-
           <img src="../Images/me.png" alt="pic" class="image">
     </div>
 
   
-    <div id="map"></div>
+    <div id="map">
 
+        <!--Have to use own api to work-->
+        <script>
+            function initMap() {
+             
+                var direction = {lat: -87.655104, lng: 41.997939};
+                
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 4, center: direction});
+    
+    
+                    var marker = new google.maps.Marker({position: direction, map: map});}
+                    
+                </script>
+               
+                <script async defer 
+                            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+                </script>
+    
+    </div>
 
-  
-    
-   
-      
-       
-    
-   
     
 </body>
 
