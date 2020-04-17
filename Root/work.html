@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    
+
 
      <div id="home">
         <nav id="topElements">
@@ -26,22 +29,85 @@
             <h1> EXPERIENCE</h1> </h1> 
         </div>
 
+
+ 
         <div id="experience">
-            <a href="popups/popup.html"><img src="../Images/experience/WF3.jpg" alt="WF1"> </a>
-            <a href="popups/popup2.html"><img src="../Images/experience/WF4.jpg" alt="WF2"> </a>
-            <a href="popups/popup3.html"><img src="../Images/experience/WF5.jpg" alt="WF3"> </a>
-            <a href="popups/popup4.html"><img src="../Images/experience/WF6.jpg" alt="WF4"> </a>
-            <a href="popups/popup5.html"><img src="../Images/experience/WF2.jpg" alt="WF5"> </a>
+            <a href="#"><img src="../Images/experience/WF3.jpg" id="WF1"> </a>
+            <a href="#"><img src="../Images/experience/WF4.jpg" id="WF2"> </a>
+            <a href="#"><img src="../Images/experience/WF5.jpg" id="WF3"> </a>
+            <a href="#"><img src="../Images/experience/WF6.jpg" id="WF4"> </a>
+            <a href="#"><img src="../Images/experience/WF2.jpg" id="WF5"> </a>
         </div>
 
-   <!--
-        <img src="../Images/experience/WF3.jpg" alt="pic" class="image">
-        <img src="../Images/experience/WF4.jpg" alt="pic" class="image">
-        <img src="../Images/experience/WF5.jpg" alt="pic" class="image">
-        <img src="../Images/experience/WF6.jpg" alt="pic" class="image">
-        <img src="../Images/experience/WF2.jpg" alt="pic" class="image"> 
-   -->
-       
+  
+
+        <style>
+           
+            
+            /* The Modal (background) */
+            .modal {
+              display: none; /* Hidden by default */
+              position: fixed; /* Stay in place */
+              z-index: 1; /* Sit on top */
+              padding-top: 100px; /* Location of the box */
+              left: 0;
+              top: 0;
+              width: 100%; /* Full width */
+              height: 100%; /* Full height */
+              
+              
+            }
+            
+            /* Modal Content */
+            .modal-content {
+              background-color: #fefefe;
+              margin: auto;
+              padding: 20px;
+              border: 1px solid #888;
+              width: 50%;
+              height: 50%;
+            }
+
+            .wireframe
+            {
+                color: aquamarine;
+            }
+            
+            /* The Close Button */
+            .close {
+              color: #000000;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
+            }
+            
+            .close:hover
+            {
+              color: red;
+              text-decoration: none;
+              cursor: pointer;
+            }
+            </style>
+            
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            
+              <!-- Modal content -->
+              <div class="modal-content">
+                  <span class="wireframe">Wireframe</span>
+                <span class="close">&times;</span>
+                <p>WF1..</p>
+              </div>
+            
+            </div>
+
+           
+            
+            <script src="../Root/js/work.js"></script>
+            
+
+
 </body>
 
 
