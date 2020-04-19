@@ -134,11 +134,11 @@ li
 
 #homeDes
 {
-    color: white;
+    color: #20CC83;
     font-size: 48px;
     padding-left: 25px;
-    padding-top: 300px;
-    margin: 100px 0 200px 0;
+    padding-top: 100px;
+    margin: 75px 0 200px 0;
     text-align: center;
 }
 
@@ -148,7 +148,7 @@ li
     font-size: 16px;
     width: 45%;
     margin: 50px auto 0 auto;
-    border: 1px solid white;
+    border: 1px solid #20CC83;
 }
 
 /* experience */
@@ -429,15 +429,7 @@ input[type=text], textarea {
     margin-bottom: 100px;
   }
 
-  .vl 
-  {
-    border-left: 1px solid white;
-    height: 500px;
-    margin-left: 50%;
-    margin-top: -20%;
-    position: fixed;
-    
-  }
+  
 
 .form
 {
@@ -534,6 +526,7 @@ button[type=clear]:hover
       transform: rotateY(0deg);
     }
   }
+
   .info {
     
     font-family: "Quantico";
@@ -549,14 +542,15 @@ button[type=clear]:hover
  .groupme
  {
     margin-left: 1100px;
-    margin-top: -350px;
+    margin-top: -565px;
     position: absolute;
  }
 
  .social
  {
-     margin-left: 1000px;
-     position: absolute;
+    margin-top: -300px;
+    margin-left: 1145px;
+    position: absolute;
      
  }
 
@@ -568,7 +562,7 @@ button[type=clear]:hover
    background-color: gray;
   }
 
-  .sm
+  .socialmedia
   {
     height: 100px;  
     width: 100%; 
@@ -577,3 +571,48 @@ button[type=clear]:hover
   }
 
 
+  #forms
+  {
+      margin-left: 60px;
+      margin-top: -45px;
+  }
+
+  .vl 
+  {
+    border-left: 1px solid white;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: -35%;
+    position: fixed;
+    
+  }
+
+  
+
+  #factDisplay
+  {
+      color: white;
+      margin-top: 75px;
+      text-align: center;
+  }
+
+  #fbutton
+  {
+      padding: 10px;
+      font-family: sans-serif;
+      color: white;
+      background-color: transparent;
+      border: 1px solid rgb(0, 255, 149);
+      margin-left: 48%;
+      margin-top: 80px;
+      text-align: center;
+     
+      
+  }
+
+  #fbutton:hover
+  {
+    background-color: #275829;
+  }
+
+  
